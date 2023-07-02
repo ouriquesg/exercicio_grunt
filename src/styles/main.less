@@ -1,0 +1,60 @@
+@import 'reset.less';
+
+.container{
+    margin: 60px auto;
+    max-width: 640px;
+    width: 100%;
+}
+h1,h4{
+    color: #8600FF;
+    text-transform: uppercase;
+}
+h1{
+    margin-bottom: 6px;
+}
+form{
+    margin-top: 20px;
+    input{
+        display: block;
+        padding: 10px;
+        margin-bottom: 6px;
+        width: 100%;
+        color: #8600FF;
+        resize: none;
+        font-weight: bold;
+    }
+    button{
+        padding: 16px;
+        display: block;
+        margin-top: 8px;
+        width: 100%;
+        background-color: rgb(211,211,211);
+        color: #8600FF;
+        font-weight: bold;
+        font-size: 20px;
+        font-style: italic;
+        cursor: pointer;
+        border: none;
+        text-transform: uppercase;
+        &:hover{
+            background-color: #8600FF;
+            color: #fff;
+        }
+    }
+}
+.successMenssagem{
+    margin-top: 6px;
+    padding: 12px;
+    color: #fff;
+    background-color: #8600FF;
+    display: none;
+    text-align: center;
+}
+.erroMenssag{
+    margin-top: 6px;
+    padding: 12px;
+    color: #8600FF;
+    background-color: rgb(211,211,211);
+    display: none;
+    text-align: center;
+}
